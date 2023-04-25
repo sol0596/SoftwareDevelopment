@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans',sans-serif;
+  }
+  
+  
+  body{
+  
+    height: 3000px;
+  }
+  
+  
+  .navbar{
+    background: #ffffff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  
+  }
+  
+  .navbar__container{
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:0 50px;
+  }
+  
+  
+  
+  .navbar__menu{
+  
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .navbar__item{
+  height: 80px;
+  }
+  
+  .navbar__links {
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  }
+  .navbar__links:hover{
+  
+    color: rgb(75, 197, 109);
+  }
+  
+  .navbar__btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+  }
+  
+  .buttonn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: green;
+  color: rgb(255, 255, 255);
+  
+  }
+  
+  .buttonn:hover{
+  
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px rgb(0, 0, 0,0.3);
+  color: white;
+  }
+  
+  
+  .img{
+    background-image: url(images/newbg1.png);   
+    height: 700px;
+    background-position: top ;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+  
+  
+  ;
+  
+  
+  
+  p{
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+      .contentbox_1 {
+        width: 500px;
+        height: 400px;
+        background: rgb(75, 197, 109);
+        padding: 40px;
+        text-align: left;
+        margin-left: 200px;
+        border-radius: 10px;
+
+      }
+
+      .contentbox_2 {
+        width: 500px;
+        height: 400px;
+        background: rgb(75, 197, 109);
+        padding: 40px;
+        text-align: left;
+        margin-left: 1200px;
+        border-radius: 10px;
+
+      }
+      .button {
+        margin: 0;
+        padding: 0;
+        font-family: 'Kumbh Sans',sans-serif;
+        width: 410px;
+        height: 40px;
+        background: rgb(197, 255, 223);
+        background: transparent;
+        border: none;
+        border: 2px solid rgb(217, 255, 228);
+        
+
+      }
+      .text{
+        color: #ffffff;
+      }
+   
+    
+      
+      
+      
